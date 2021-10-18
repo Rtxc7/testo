@@ -1,0 +1,28 @@
+{
+     "ownerNumber": "628127668234@s.whatsapp.net",
+     "limitCount": 20,
+     "gamewaktu": 60,
+     "botName": "ChikaBot",
+     "pathImg": "./media/yo.jpg",
+     "lolkey": "key-chika-aaa",
+	 "zekskey": "chika-key",
+	 "vhkey": "chika-not-iluser",
+     "sesidInsta": "default",
+     "sessionName": "chika",
+     "gcount": {
+          "prem": 999999,
+          "user": 25
+     },
+     "emote": {
+          "free": "◽",
+          "owner": "◾",
+          "limit": "🔸",
+          "glimit": "🔹",
+          "prem": "💰"
+     },
+     "saweria": {
+          "email": "rashidsiregar28@gmail.com",
+          "password": "aziza12345",
+          "user-id": "26fca22b-940b-4d8b-ace3-73f702c41e66"
+     }
+}
