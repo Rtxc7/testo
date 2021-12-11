@@ -1,1 +1,115 @@
-'use strict';const _0x263c=['recording','802089oTJhbY','public','CB:action,,battery','message-delete','all','Connecting...','7QnQTBM','watchFile','loadAuthInfo','Xinz\x20Bot','lastKnownPresence','.json','Scan\x20QR\x20~~','112436hQPjhl','@adiwajshing/baileys','WAConnection','close','prefa','hasNewMessage','1objelt','resolve','generate','./lib/myfunc','\x27\x20Telah\x20berubah!','open','replace','writeFileSync','cyan','status@broadcast','log','remoteJid','Connect,\x20Welcome\x20Owner','parse','39821hfWPZT','./message/xinz','\x20Dipantau\x20oleh\x20kang\x20Bakso','cas','149nXYxxw','3RPXozS','684018GTLLUe','group-participants-update','version','sessionName','presences','./database/afk.json','anjing','add','qrcode-terminal','mode','./message/antidelete','value','sendMessage','./lib/afk','1172PneSQl','base64EncodedAuthInfo','splice','s.whatsapp.net','getAfkPosition','\x0aMencoba\x20mengkoneksi\x20ulang\x20:','./lib/color','stringify','\x20berhenti\x20afk,\x20dia\x20sedang\x20','3037fWeGdi','./database/welcome.json','baterai','catch','CB:Blocklist','554PEhAPP','figlet','cache','extendedText','xinz','./message/group','composing','key','connecting','default','./config.json','[\x20CREATED\x20BY\x20XINZTEAM\x20]','./message/xinz.js','./message/antidelete.js','ws-close','./database/scommand.json','push','split','merekam','Module\x20','./message/help.js','1105350fJKilE','existsSync','multi','CB:action,,call','checkAfkUser','Koneksi\x20terputus,\x20mencoba\x20menghubungkan\x20kembali..','message','nopref','Maaf\x20bot\x20tidak\x20menerima\x20call','messages'];const _0xf735d9=_0x1f16;(function(_0x324115,_0x564925){const _0x2545a5=_0x1f16;while(!![]){try{const _0x512a91=-parseInt(_0x2545a5(0x1e4))+-parseInt(_0x2545a5(0x233))*-parseInt(_0x2545a5(0x220))+-parseInt(_0x2545a5(0x1e3))*parseInt(_0x2545a5(0x22d))+-parseInt(_0x2545a5(0x1e2))*-parseInt(_0x2545a5(0x1fb))+-parseInt(_0x2545a5(0x1de))*parseInt(_0x2545a5(0x226))+-parseInt(_0x2545a5(0x200))*parseInt(_0x2545a5(0x1f2))+parseInt(_0x2545a5(0x215));if(_0x512a91===_0x564925)break;else _0x324115['push'](_0x324115['shift']());}catch(_0x183243){_0x324115['push'](_0x324115['shift']());}}}(_0x263c,0x643df));let {WAConnection:_WAConnection}=require(_0xf735d9(0x22e)),{MessageType}=require(_0xf735d9(0x22e));const qrcode=require(_0xf735d9(0x1ec)),figlet=require(_0xf735d9(0x201)),fs=require('fs'),{color,XinzLog}=require(_0xf735d9(0x1f8)),{serialize}=require(_0xf735d9(0x236)),myfunc=require(_0xf735d9(0x236)),afk=require(_0xf735d9(0x1f1));let WAConnection=myfunc[_0xf735d9(0x22f)](_WAConnection),_afk=JSON[_0xf735d9(0x240)](fs['readFileSync'](_0xf735d9(0x1e9))),welcome=JSON[_0xf735d9(0x240)](fs['readFileSync'](_0xf735d9(0x1fc))),setting=JSON[_0xf735d9(0x240)](fs['readFileSync'](_0xf735d9(0x20a))),blocked=[];global[_0xf735d9(0x204)]=new WAConnection(),xinz[_0xf735d9(0x1ed)]=_0xf735d9(0x221),xinz[_0xf735d9(0x1e6)]=[0x2,0x847,0x6],xinz[_0xf735d9(0x1fd)]={'baterai':0x0,'cas':![]},xinz[_0xf735d9(0x217)]=!![],xinz[_0xf735d9(0x21c)]=![],xinz[_0xf735d9(0x231)]=_0xf735d9(0x1ea),require(_0xf735d9(0x20c)),nocache(_0xf735d9(0x20c),_0x30571e=>console[_0xf735d9(0x23d)](color('\x27'+_0x30571e+_0xf735d9(0x237)))),require(_0xf735d9(0x20d)),nocache(_0xf735d9(0x20d),_0x1d4261=>console[_0xf735d9(0x23d)](color('\x27'+_0x1d4261+_0xf735d9(0x237)))),require(_0xf735d9(0x214)),nocache('./message/help.js',_0x2d194d=>console[_0xf735d9(0x23d)](color('\x27'+_0x2d194d+_0xf735d9(0x237)))),require(_0xf735d9(0x20f)),nocache(_0xf735d9(0x20f),_0x953624=>console[_0xf735d9(0x23d)](color('\x27'+_0x953624+_0xf735d9(0x237))));const start=async _0xe6f472=>{const _0x6c61e0=_0xf735d9;xinz['logger']['level']='warn',console[_0x6c61e0(0x23d)](color(figlet['textSync'](_0x6c61e0(0x229),{'font':'Standard','horizontalLayout':_0x6c61e0(0x209),'vertivalLayout':_0x6c61e0(0x209),'whitespaceBreak':![]}),_0x6c61e0(0x23b))),console[_0x6c61e0(0x23d)](color(_0x6c61e0(0x20b))),xinz['on']('qr',_0x4af102=>{const _0x540967=_0x6c61e0;qrcode[_0x540967(0x235)](_0x4af102,{'small':!![]}),console[_0x540967(0x23d)](XinzLog(_0x540967(0x22c)));}),fs[_0x6c61e0(0x216)](_0xe6f472)&&xinz[_0x6c61e0(0x228)](_0xe6f472),xinz['on'](_0x6c61e0(0x208),()=>{const _0x55c10c=_0x6c61e0;console[_0x55c10c(0x23d)](XinzLog(_0x55c10c(0x225)));}),xinz['on'](_0x6c61e0(0x238),_0x36ab49=>{const _0x42dcca=_0x6c61e0;console[_0x42dcca(0x23d)](XinzLog(_0x42dcca(0x23f)));}),await xinz['connect']({'timeoutMs':0x1e*0x3e8}),fs[_0x6c61e0(0x23a)](_0xe6f472,JSON[_0x6c61e0(0x1f9)](xinz[_0x6c61e0(0x1f3)](),null,'\x09')),xinz['on'](_0x6c61e0(0x20e),()=>{const _0x2d0716=_0x6c61e0;console[_0x2d0716(0x23d)](XinzLog(_0x2d0716(0x21a)));}),xinz['on'](_0x6c61e0(0x230),async({reason:_0x1a8107,isReconnecting:_0x43850b})=>{const _0x90a69c=_0x6c61e0;console[_0x90a69c(0x23d)](XinzLog('Terputus,\x20Alasan\x20:'+_0x1a8107+_0x90a69c(0x1f7)+_0x43850b)),!_0x43850b&&console[_0x90a69c(0x23d)](XinzLog('Connect\x20To\x20Phone\x20Rejected\x20and\x20Shutting\x20Down.'));}),xinz['on'](_0x6c61e0(0x1ff),_0x526166=>{const _0x54aa9c=_0x6c61e0;if(blocked['length']>0x2)return;for(let _0x2d9d84 of _0x526166[0x1]['blocklist']){blocked[_0x54aa9c(0x210)](_0x2d9d84[_0x54aa9c(0x239)]('c.us',_0x54aa9c(0x1f5)));}}),xinz['on'](_0x6c61e0(0x218),async _0x19ce38=>{const _0x18de0e=_0x6c61e0,_0x2e4b85=_0x19ce38[0x2][0x0][0x1]['from'];xinz[_0x18de0e(0x1f0)](_0x2e4b85,_0x18de0e(0x21d),MessageType['text']),await xinz['blockUser'](_0x2e4b85,_0x18de0e(0x1eb));}),xinz['on'](_0x6c61e0(0x222),_0x5276a4=>{const _0x5eb3ef=_0x6c61e0,_0x2daedc=_0x5276a4[0x2][0x0][0x1][_0x5eb3ef(0x1ef)],_0x4ad18f=_0x5276a4[0x2][0x0][0x1]['live'];xinz[_0x5eb3ef(0x1fd)][_0x5eb3ef(0x1fd)]=_0x2daedc,xinz[_0x5eb3ef(0x1fd)][_0x5eb3ef(0x1e1)]=_0x4ad18f;}),xinz['on'](_0x6c61e0(0x223),async _0x1d4a86=>{const _0x1d0554=_0x6c61e0;require(_0x1d0554(0x1ee))(xinz,_0x1d4a86);}),xinz['on']('chat-update',async _0xb49a98=>{const _0x59fc02=_0x6c61e0;if(_0xb49a98[_0x59fc02(0x1e8)])for(let _0x168e8c in _0xb49a98[_0x59fc02(0x1e8)]){(_0xb49a98[_0x59fc02(0x1e8)][_0x168e8c][_0x59fc02(0x22a)]===_0x59fc02(0x206)||_0xb49a98['presences'][_0x168e8c][_0x59fc02(0x22a)]===_0x59fc02(0x21f))&&(afk[_0x59fc02(0x219)](_0x168e8c,_afk)&&(_afk[_0x59fc02(0x1f4)](afk[_0x59fc02(0x1f6)](_0x168e8c,_afk),0x1),fs['writeFileSync'](_0x59fc02(0x1e9),JSON[_0x59fc02(0x1f9)](_afk)),xinz['sendMessage'](_0xb49a98['jid'],'@'+_0x168e8c[_0x59fc02(0x211)]('@')[0x0]+_0x59fc02(0x1fa)+(_0xb49a98[_0x59fc02(0x1e8)][_0x168e8c]['lastKnownPresence']===_0x59fc02(0x206)?'mengetik':_0x59fc02(0x212)),MessageType[_0x59fc02(0x203)],{'contextInfo':{'mentionedJid':[_0x168e8c]}})));}if(!_0xb49a98[_0x59fc02(0x232)])return;_0xb49a98=_0xb49a98[_0x59fc02(0x21e)][_0x59fc02(0x224)]()[0x0];if(!_0xb49a98[_0x59fc02(0x21b)])return;if(_0xb49a98[_0x59fc02(0x207)]&&_0xb49a98[_0x59fc02(0x207)][_0x59fc02(0x23e)]==_0x59fc02(0x23c))return;let _0x495e8c=serialize(xinz,_0xb49a98);require(_0x59fc02(0x1df))(xinz,_0x495e8c,blocked,_afk,welcome);}),xinz['on'](_0x6c61e0(0x1e5),async _0x283854=>{const _0xe62e0=_0x6c61e0;require(_0xe62e0(0x205))(xinz,_0x283854,welcome);});};function nocache(_0x24fd55,_0x275fda=()=>{}){const _0x4d370d=_0xf735d9;console['log'](color(_0x4d370d(0x213)+_0x24fd55+_0x4d370d(0x1e0))),fs[_0x4d370d(0x227)](require[_0x4d370d(0x234)](_0x24fd55),async()=>{const _0x248da1=_0x4d370d;await uncache(require[_0x248da1(0x234)](_0x24fd55)),_0x275fda(_0x24fd55);});}function uncache(_0x189170='.'){return new Promise((_0x29fefa,_0x1f520c)=>{const _0x4360d8=_0x1f16;try{delete require[_0x4360d8(0x202)][require[_0x4360d8(0x234)](_0x189170)],_0x29fefa();}catch(_0x3ceb5f){_0x1f520c(_0x3ceb5f);}});}function _0x1f16(_0x4d0a74,_0x117964){return _0x1f16=function(_0x263ccb,_0x1f16bc){_0x263ccb=_0x263ccb-0x1de;let _0x70595f=_0x263c[_0x263ccb];return _0x70595f;},_0x1f16(_0x4d0a74,_0x117964);}start('./'+setting[_0xf735d9(0x1e7)]+_0xf735d9(0x22b))[_0xf735d9(0x1fe)](_0x34c231=>console[_0xf735d9(0x23d)](_0x34c231));
+"use strict";
+let { WAConnection : _WAConnection } = require("@adiwajshing/baileys");
+let { MessageType } = require("@adiwajshing/baileys");
+const qrcode = require("qrcode-terminal");
+const figlet = require("figlet");
+const fs = require("fs");
+
+const { color, XinzLog } = require("./lib/color");
+const { serialize, serializeM } = require("./lib/myfunc");
+const myfunc = require("./lib/myfunc");
+
+
+let WAConnection = myfunc.WAConnection(_WAConnection)
+
+let welcome = JSON.parse(fs.readFileSync('./database/welcome.json'));
+let setting = JSON.parse(fs.readFileSync('./config.json'));
+let _afk = JSON.parse(fs.readFileSync('./database/afk.json'));
+let blocked = [];
+
+global.xinz = new WAConnection()
+xinz.mode = 'public'
+xinz.baterai = {
+    baterai: 0,
+    cas: false
+};
+xinz.multi = true
+xinz.nopref = false
+xinz.prefa = 'anjing'
+
+const start = async(sesion) => {
+    xinz.logger.level = 'warn'
+
+    console.log(color(figlet.textSync('Chika-Bot', {
+		font: 'Standard',
+		horizontalLayout: 'default',
+		vertivalLayout: 'default',
+		whitespaceBreak: false
+	}), 'cyan'))
+	console.log(color('[ CREATED BY XINZTEAM ]'))
+	xinz.version = [2, 2143, 3] 
+    xinz.on('qr', qr => {
+        qrcode.generate(qr, { small: true })
+        console.log(XinzLog('Scan QR ~~'))
+    })
+
+    fs.existsSync(sesion) && xinz.loadAuthInfo(sesion)
+
+    xinz.on('connecting', () => {
+		console.log(XinzLog('Connecting...'))
+	})
+
+    xinz.on('open', (json) => {
+		console.log(XinzLog('Connect, Welcome Owner'))
+	})
+
+    await xinz.connect({timeoutMs: 30*1000})
+    fs.writeFileSync(sesion, JSON.stringify(xinz.base64EncodedAuthInfo(), null, '\t'))
+
+    xinz.on('ws-close', () => {
+        console.log(XinzLog('Koneksi terputus, mencoba menghubungkan kembali..'))
+    })
+
+    xinz.on('close', async ({ reason, isReconnecting }) => {
+        console.log(XinzLog('Terputus, Alasan :' + reason + '\nMencoba mengkoneksi ulang :' + isReconnecting))
+        if (!isReconnecting) {
+            console.log(XinzLog('Connect To Phone Rejected and Shutting Down.'))
+        }
+    })
+
+    xinz.on('CB:Blocklist', json => {
+        if (blocked.length > 2) return
+        for (let i of json[1].blocklist) {
+            blocked.push(i.replace('c.us','s.whatsapp.net'))
+        }
+    })
+    xinz.on('CB:action,,call', async json => {
+        const callerid = json[2][0][1].from;
+        xinz.sendMessage(callerid, `Maaf bot tidak menerima call`, MessageType.text)
+        await xinz.blockUser(callerid, "add")
+    })
+    xinz.on('CB:action,,battery', json => {
+        const a = json[2][0][1].value
+        const b = json[2][0][1].live
+        xinz.baterai.baterai = a
+        xinz.baterai.cas = b
+    })
+    xinz.on('message-delete', async(json) => {
+        require('./message/antidelete')(xinz, json)
+    })
+    xinz.on('chat-update', async (qul) => {
+		if (!qul.hasNewMessage) return
+        qul = qul.messages.all()[0]
+        if (!qul.message) return
+		if (qul.key && qul.key.remoteJid == 'status@broadcast') return
+        let msg = serialize(xinz, qul)
+        let smsg = serializeM(xinz, qul)
+		require('./message/xinz')(xinz, msg, smsg, blocked, _afk, welcome)
+	}) 
+    xinz.on('group-participants-update', async (anj) => {
+        require("./message/group")(xinz, anj, welcome)
+    })
+}
+function uncache(module = '.') {
+    return new Promise((resolve, reject) => {
+        try {
+            delete require.cache[require.resolve(module)]
+            resolve()
+        } catch (e) {
+            reject(e)
+        }
+    })
+}
+
+start(`./${setting.sessionName}.json`)
+.catch(err => console.log(err))
